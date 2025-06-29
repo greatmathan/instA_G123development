@@ -1,0 +1,392 @@
+
+			
+			driver.findElement(By.xpath("//button[text()='Audio']")).click();// Click Audio 
+			
+			driver.findElement(By.xpath("//button[text()='Home Audio']")).click(); // Click Home Audio
+			//button[text()='Bluetooth Speakers']
+					String Audio = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[3]/div/ul")).getText();
+					
+					System.out.println(Audio+"\n");
+					driver.findElement(By.xpath("//button[text()='Headphones']")).click();//click Headphones
+					String Headphones = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[4]/div/ul")).getText();
+	                         
+					System.out.println(Headphones+"\n");
+					driver.findElement(By.xpath("//button[text()='Bluetooth Speakers']")).click();//click Bluetooth Speakers
+					String BluetoothSpeakers = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[5]/div/ul")).getText();
+	                         
+					System.out.println(BluetoothSpeakers+"\n");
+					
+					driver.findElement(By.xpath("//button[text()='Premium Audio']")).click();//click PremiumAudio
+					String PremiumAudio = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[6]/div/ul")).getText();
+	                         
+					System.out.println(PremiumAudio+"\n");
+					driver.findElement(By.xpath("//button[text()='Car Audio']")).click();//click CarAudio
+					String CarAudio = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[7]/div/ul")).getText();
+	                         
+					System.out.println(CarAudio+"\n");
+					driver.findElement(By.xpath("//button[text()='Vinyl Records']")).click();//click VinylRecords
+					String VinylRecords = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[8]/div/ul")).getText();
+	                         
+					System.out.println(VinylRecords+"\n");
+					driver.findElement(By.xpath("//button[text()='Deals & Outlet']")).click();//click AudioDeals_Outlet
+					String AudioDeals_Outlet = driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[12]/div/ul")).getText();
+	                         
+					System.out.println(AudioDeals_Outlet+"\n");
+					driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[1]/button/span")).click();
+
+					driver.findElement(By.xpath("//button[text()='Video Games']")).click();//click Video Games
+					
+					driver.findElement(By.xpath("//button[text()='Xbox Series X|S']")).click();//click XboxSeries
+					
+					String XboxSeries= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[3]/div/ul")).getText();
+					
+					System.out.println(XboxSeries+"\n");
+
+					
+	              driver.findElement(By.xpath("//button[text()='PlayStation 5']")).click();//click PlayStation05
+					
+					String PlayStation05= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[4]/div/ul")).getText();
+					
+					System.out.println(PlayStation05+"\n");
+					
+	 driver.findElement(By.xpath("//button[text()='Nintendo Switch']")).click();//click NintendoSwitch
+					
+					String NintendoSwitch= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[5]/div/ul")).getText();
+					
+					System.out.println(NintendoSwitch+"\n");
+					
+	driver.findElement(By.xpath("//button[text()='PC Gaming & Virtual Reality']")).click();//click PC_Gaming_Virtual_Reality
+					
+					String PC_Gaming_Virtual_Reality= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[6]/div/ul")).getText();
+					
+					System.out.println(PC_Gaming_Virtual_Reality+"\n");
+				
+	driver.findElement(By.xpath("//button[text()='Xbox One']")).click();//click XboxOne
+					
+					String XboxOne= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[7]/div/ul")).getText();
+					
+					System.out.println(XboxOne+"\n");
+					
+	driver.findElement(By.xpath("//button[text()='PlayStation 4']")).click();//click PlayStation04
+					
+					String PlayStation04= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[8]/div/ul")).getText();
+					
+					System.out.println(PlayStation04+"\n");
+					
+	driver.findElement(By.xpath("//button[text()='Gaming Accessories']")).click();//click GamingAccessories
+					
+					String GamingAccessories= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[9]/div/ul")).getText();
+					
+					System.out.println(GamingAccessories+"\n");
+					
+	driver.findElement(By.xpath("//button[text()='Digital Gaming']")).click();//click DigitalGaming
+					
+					String DigitalGaming= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[10]/div/ul/li[7]")).getText();
+					
+					System.out.println(DigitalGaming+"\n");
+					
+					
+	driver.findElement(By.xpath("//button[text()='Deals & Outlet']")).click();//click GamingDeals
+					
+					String GamingDeals= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[15]/div/ul")).getText();
+					
+					System.out.println(GamingDeals+"\n");
+					driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[1]/button/span")).click();
+					driver.findElement(By.xpath("//button[text()='Cameras, Camcorders & Drones']")).click();//click CamerasCamcorders&Drones
+					driver.findElement(By.xpath("//button[text()='Cameras & Lenses']")).click();//click CamerasLenses
+
+					String CamerasLenses= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[3]/div/ul")).getText();
+					
+					System.out.println(CamerasLenses+"\n");
+			
+					driver.findElement(By.xpath("//button[text()='Action Cameras & Camcorders']")).click();//click ActionCameraCamcorders
+
+					String ActionCameraCamcorders= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[4]/div/ul")).getText();
+					
+					System.out.println(ActionCameraCamcorders+"\n");
+					driver.findElement(By.xpath("//button[text()='Content Creator Gear']")).click();//click ActionCameraCamcorders
+
+					String ContentCreatorGear= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[5]/div/ul")).getText();
+					
+					System.out.println(ContentCreatorGear+"\n");
+					driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[1]/button/span")).click();
+					
+					driver.findElement(By.xpath("//button[text()='Home, Furniture & Office']")).click();//click HomeFurnitureOffice
+					driver.findElement(By.xpath("//button[text()='Home']")).click();//click Home
+					
+					String Home= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[3]/div/ul")).getText();
+					System.out.println(Home+"\n");
+					
+	driver.findElement(By.xpath("//button[text()='Furniture']")).click();//click Furniture
+					
+					String Furniture= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[4]/div/ul")).getText();
+					System.out.println(Furniture+"\n");
+					
+	driver.findElement(By.xpath("//button[text()='Kitchen & Dining']")).click();//click Kitchen_Dining
+					
+					String Kitchen_Dining= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[5]/div/ul")).getText();
+					System.out.println(Kitchen_Dining+"\n");
+					
+	driver.findElement(By.xpath("//button[text()='Office']")).click();//click Office
+					
+					String Office= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[6]/div/ul")).getText();
+					System.out.println(Office+"\n");
+					
+	driver.findElement(By.xpath("//button[text()='Craft Machines']")).click();//click CraftMachines
+					
+					String CraftMachines= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[7]/div/ul")).getText();
+					System.out.println(Office+"\n");
+					
+	driver.findElement(By.xpath("//button[text()='Luggage & Travel']")).click();//click LuggageTravel
+					
+					String LuggageTravel= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[8]/div/ul")).getText();
+					System.out.println(LuggageTravel+"\n");
+					
+	driver.findElement(By.xpath("//button[text()='Tools & Garage']")).click();//click ToolsGarage
+					
+					String ToolsGarage= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[9]/div/ul")).getText();
+					System.out.println(ToolsGarage+"\n");
+					
+	driver.findElement(By.xpath("//button[text()='Storage & Organization']")).click();//click StorageOrganization
+					
+					String StorageOrganization= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[10]/div/ul")).getText();
+					System.out.println(StorageOrganization+"\n");
+					
+	driver.findElement(By.xpath("//button[text()='Deals & Outlet']")).click();//click Deals_OutletHome
+					
+					String Deals_OutletHome= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[13]/div/ul")).getText();
+					System.out.println(Deals_OutletHome+"\n");
+					
+					driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[1]/button/span")).click();
+
+	driver.findElement(By.xpath("//button[text()='Smart Home, Security & Wi-Fi']")).click();//click SmartSecurityWi-Fi
+	driver.findElement(By.xpath("//button[text()='Wi-Fi & Networking']")).click();//click WiNetworking
+				
+					String WiNetworking= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[3]/div/ul")).getText();
+					System.out.println(WiNetworking+"\n");
+					driver.findElement(By.xpath("//button[text()='Smart Devices']")).click();//click SmartDevices
+					
+					String SmartDevices= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[12]/div/ul")).getText();
+					System.out.println(SmartDevices+"\n");
+				
+	driver.findElement(By.xpath("//button[text()='Deals & Outlet']")).click();//click Deals
+					
+					String Deals= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[15]/div/ul")).getText();
+					System.out.println(Deals+"\n");
+	driver.findElement(By.xpath("//button[text()='Services & Support']")).click();//click Services & Support
+					
+					String ServicesSupport= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[16]/div/ul")).getText();
+					System.out.println(ServicesSupport+"\n");
+					driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[1]/button/span")).click();
+	driver.findElement(By.xpath("//button[text()='Car Electronics & GPS']")).click();//click CarElectronics
+	driver.findElement(By.xpath("//button[text()='Car Audio']")).click();//click CarAudio
+					
+					String CarAudioo= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[3]/div/ul")).getText();
+					System.out.println(CarAudioo+"\n");
+	driver.findElement(By.xpath("//button[text()='Car Security & Convenience']")).click();//click CarAudio
+	String CarAud= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[4]/div/ul")).getText();
+	System.out.println(CarAud+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Deals & Outlet']")).click();//click CarDeals
+	String CarDeals= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[13]/div/ul")).getText();
+	System.out.println(CarDeals+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Services & Support']")).click();//click CarServicesSupport
+	String CarServicesSupport= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[14]/div/ul")).getText();
+	System.out.println(CarServicesSupport+"\n");
+	driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[1]/button/span")).click();
+
+	driver.findElement(By.xpath("//button[text()='Wearable Technology']")).click();//click WearableTechnology
+	driver.findElement(By.xpath("//button[text()='Apple Watch']")).click();//click AppleWatch
+
+	String AppleWatch= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[3]/div/ul")).getText();
+	System.out.println(AppleWatch+"\n");
+
+
+	driver.findElement(By.xpath("//button[text()='Smartwatches']")).click();//click Smartwatches
+
+	String Smartwatches= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[4]/div")).getText();
+	System.out.println(Smartwatches+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Headphones']")).click();//click wHeadphones
+
+	String wHeadphones= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[8]/div/ul")).getText();
+	System.out.println(wHeadphones+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Virtual Reality']")).click();//click VirtualReality
+
+	String VirtualReality= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[9]/div/ul")).getText();
+	System.out.println(VirtualReality+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Shop by Brand']")).click();//click ShopBrand
+
+	String ShopBrand= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[10]/div/ul")).getText();
+	System.out.println(ShopBrand+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Wearable Technology Accessories']")).click();//click Wearable_TechnologyAccessories
+
+	String Wearable_TechnologyAccessories= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[11]/div/ul")).getText();
+	System.out.println(Wearable_TechnologyAccessories+"\n");
+
+
+	driver.findElement(By.xpath("//button[text()='Deals & Outlet']")).click();//click Deals_cars_Outlet
+
+	String Deals_cars_Outlet= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[14]/div/ul")).getText();
+	System.out.println(Deals_cars_Outlet+"\n");
+	driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[1]/button/span")).click();
+
+	driver.findElement(By.xpath("//button[text()='Health, Wellness & Fitness']")).click();//click Health
+	driver.findElement(By.xpath("//button[text()='Home Health Care']")).click();//click HomeHealth_Care
+	String HomeHealth_Care= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[3]/div/ul")).getText();
+	System.out.println(HomeHealth_Care+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Personal Care & Beauty']")).click();//click Personal_Care_&_Beauty
+	String Personal_Care_= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[4]/div/ul")).getText();
+	System.out.println(Personal_Care_+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Shaving & Hair Removal']")).click();//click Shaving_Hair_Removal
+	String Shaving_Hair_Removal= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[5]/div/ul")).getText();
+	System.out.println(Shaving_Hair_Removal+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Exercise & Fitness']")).click();//click Exercise_Fitness
+	String Exercise_Fitness= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[6]/div/ul")).getText();
+	System.out.println(Exercise_Fitness+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Workout Recovery']")).click();//click Workout_Recovery
+	String Workout_Recovery= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[7]/div/ul")).getText();
+	System.out.println(Workout_Recovery+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Sleep Solutions']")).click();//click Sleep_Solutions
+	String Sleep_Solutions= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[8]/div/ul")).getText();
+	System.out.println(Sleep_Solutions+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Baby Care']")).click();//click Baby_Care
+	String Baby_Care= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[9]/div/ul")).getText();
+	System.out.println(Baby_Care+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Smartwatches']")).click();//click Smart_watches
+	String Smart_watches= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[10]/div/ul")).getText();
+	System.out.println(Baby_Care+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Contrast Therapy: Hot & Cold Therapy']")).click();//click Contrast Therapy: HotColdTherapy
+	String HotColdTherapy= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[11]/div/ul")).getText();
+	System.out.println(HotColdTherapy+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Deals & Outlet']")).click();//click Deals_Health_Outlet
+	String Deals_Health_Outlet= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[14]/div/ul")).getText();
+	System.out.println(Deals_Health_Outlet+"\n");
+
+
+	driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[1]/button/span")).click();
+
+	driver.findElement(By.xpath("//button[text()='Outdoor Living']")).click();//click Outdoor_Living
+	driver.findElement(By.xpath("//button[text()='Patio Furniture']")).click();//click Patio_Furniture
+	String Patio_Furniture= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[3]/div/ul")).getText();
+	System.out.println(Patio_Furniture+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Grills & Outdoor Kitchens']")).click();//click Grills
+	String Grills= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[4]/div/ul")).getText();
+	System.out.println(Grills+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Outdoor Heating']")).click();//click Outdoor
+	String Outdoor= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[5]/div/ul")).getText();
+	System.out.println(Outdoor+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Outdoor Power Equipment']")).click();//click Outdoor_Power_Equipment
+	String Outdoor_Power_Equipment= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[6]/div/ul")).getText();
+	System.out.println(Outdoor_Power_Equipment+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Outdoor Home Theater']")).click();//click Outdoor_Home_Theater
+	String Outdoor_Home_Theater= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[7]/div")).getText();
+	System.out.println(Outdoor_Home_Theater+"\n");
+
+
+	driver.findElement(By.xpath("//button[text()='Deals & Outlet']")).click();//click Deals_wear_Outlet
+	String Deals_wear_Outlet= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[11]/div/ul")).getText();
+	System.out.println(Deals_wear_Outlet+"\n");
+
+	driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[1]/button/span")).click();
+
+	driver.findElement(By.xpath("//button[text()='Toys, Games & Collectibles']")).click();//click Toys_Games
+	driver.findElement(By.xpath("//button[text()='Toys by Type']")).click();//click Toys_by_Type
+	String Toys_by_Type= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[3]/div/ul")).getText();
+	System.out.println(Toys_by_Type+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Toys by Age']")).click();//click Toys_by_Age
+	String Toys_by_Age= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[4]/div/ul")).getText();
+	System.out.println(Toys_by_Age+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Games, Puzzles & Cards']")).click();//click GamesPuzzlesCards
+	String GamesPuzzlesCards= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[5]/div/ul")).getText();
+	System.out.println(GamesPuzzlesCards+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Collectibles']")).click();//click Collectibles
+	String Collectibles= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[6]/div/ul")).getText();
+	System.out.println(Collectibles+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Shop by Character']")).click();//click Shop_by_Character
+	String Shop_by_Character= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[7]/div/ul")).getText();
+	System.out.println(Shop_by_Character+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Shop by Brand']")).click();//click Shop_by_Brand
+	String Shop_by_Brand= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[8]/div/ul")).getText();
+	System.out.println(Shop_by_Brand+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Outdoor Hobbies & Play']")).click();//click Outdoor_Hobbies_Play
+	String Outdoor_Hobbies_Play= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[9]/div/ul")).getText();
+	System.out.println(Outdoor_Hobbies_Play+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Deals & Outlet']")).click();//click Deals_Toys_Outlet
+	String Deals_Toys_Outlet= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[12]/div/ul")).getText();
+	System.out.println(Deals_Toys_Outlet+"\n");
+	driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[1]/button/span")).click();
+
+	driver.findElement(By.xpath("//button[text()='Electric Transportation']")).click();//click Electric Transportation
+	driver.findElement(By.xpath("//button[text()='Electric Bikes']")).click();//click Electric_Bikes
+	String Electric_Bikes= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[3]/div/ul")).getText();
+	System.out.println(Electric_Bikes+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Electric Scooters']")).click();//click Electric_Scooters
+	String Electric_Scooters= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[4]/div/ul")).getText();
+	System.out.println(Electric_Scooters+"\n");
+
+	/*driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[8]/button/text()")).click();//click KidsScootersRide-Ons
+	String KidsScootersRide= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[8]/div/ul")).getText();
+	System.out.println(KidsScootersRide+"\n");*/ /////////
+
+
+	driver.findElement(By.xpath("//button[text()='Safety Gear & Accessories']")).click();//click Safety Gear_Accessories
+	String Gear_Accessories= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[9]/div/ul")).getText();
+	System.out.println(Gear_Accessories+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Deals']")).click();//click Safety_Deals
+	String Safety_Deals= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[12]/div/ul")).getText();
+	System.out.println(Safety_Deals+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Services & Support']")).click();//click Services_1_Support
+	String Services_1_Support= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[13]/div/ul")).getText();
+	System.out.println(Services_1_Support+"\n");
+
+	driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[1]/button/span")).click();
+
+
+	driver.findElement(By.xpath("//button[text()='New & Featured']")).click();//click New_Featured
+	driver.findElement(By.xpath("//button[text()='Featured Gift Ideas']")).click();//click Featured_Gift_Ideas
+	String Featured_Gift_Ideas= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[9]/div/ul")).getText();
+	System.out.println(Featured_Gift_Ideas+"\n");
+
+	driver.findElement(By.xpath("//button[text()='New Releases']")).click();//click New_Releases
+
+	String New_Releases= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[10]/div/ul")).getText();
+	System.out.println(New_Releases+"\n");
+
+	driver.findElement(By.xpath("//button[text()='Summer Shop']")).click();//click Summer_Shop
+
+	String Summer_Shop= driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[13]/div/ul")).getText();
+	System.out.println(Summer_Shop+"\n");
+	driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/li[1]/button/span")).click();
+
+	driver.findElement(By.xpath("/html/body/div[3]/div/div/div[1]/header/div[3]/div/nav/div/div/ul/button")).click();
+
+}
+}
